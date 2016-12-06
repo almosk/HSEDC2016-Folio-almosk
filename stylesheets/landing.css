@@ -1,8 +1,8 @@
-/*body.landing.bg {
+body.landing.bg {
   background-image: url(../materials/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
-}*/
+}
 
 .landingWraper {
   position: relative;
@@ -48,14 +48,18 @@
 
 .mainSection section {
   position: absolute;
-  top: 175px;
+  top: 190px;
   width: 580px;
 }
 
 .mainSection.left section {
-  left: 185px;
+  left: 150px;
 }
 
 .mainSection.right section {
-  right: 40px;
+  right: 70px;
+}
+
+#s2, #s4 {
+  color: white;
 }

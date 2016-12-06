@@ -1,8 +1,8 @@
 .menubar{
-  heigh: 50px;
+  height: 60px;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
 }
@@ -12,6 +12,7 @@
   height: 16px;
   width: 180px;
   background-image: url(../materials/images/logo.svg);
+  background-repeat: no-repeat;
 }
 
 .about:hover {
