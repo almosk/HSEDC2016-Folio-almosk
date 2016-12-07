@@ -1,8 +1,8 @@
-body.landing.bg {
+/*body.landing.bg {
   background-image: url(../materials/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
-}
+}*/
 
 .landingWraper {
   position: relative;
@@ -62,4 +62,84 @@ body.landing.bg {
 
 #s2, #s4 {
   color: white;
+  background-color: rgba(135, 150, 150, 1);
+}
+
+.mainSection section figure {
+  margin: 60px 0 0 -60px;
+  width: 30px;
+  height: 4px;
+  background-color: #50e3c2;
+
+}
+
+.mainSection.left section figure {
+  margin-left: 0;
+}
+
+.mainSection.right section figure {
+  margin-left: 1px;
+}
+
+.mainSection.center footer {
+  position: absolute;
+  top: 490px;
+  right: 0;
+  width: 100%;
+}
+
+.mainSection.center footer p {
+  font-size: 16px;
+}
+
+.mockup {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+}
+
+#mockup1 {
+  width: 530px;
+  height: 566px;
+  top: 235px;
+  right: 168px;
+  background-image: url(../materials/landing/mockup1.jpg);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+
+#m1 {
+  width: 140px;
+  height: 318px;
+  top: 193px;
+  left: 150px;
+  background-image: url(../materials/images/about.png);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+
+#m2 {
+  width: 140px;
+  height: 396px;
+  top: 193px;
+  left: 325px;
+  background-image: url(../materials/images/work.png);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+
+#m3 {
+  width: 140px;
+  height: 477px;
+  top: 193px;
+  left: 500px;
+  background-image: url(../materials/images/works.png);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+
+#mockup3 {
+  width: 758px;
+  height: 402px;
+  top: 345px;
+  right: 50px;
+  /*border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);*/
+  background-image: url(../materials/landing/mockup3.jpg);
 }

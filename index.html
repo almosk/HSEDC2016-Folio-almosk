@@ -4,13 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <title></title>
+    <title>Folio — своё портфолио своими руками</title>
+
+    <meta name="description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
+    <meta name="keywords" content="hack, exchange, html, css, javascript, hse, design, rap, yo, punk">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://folio.hack.exchange">
+    <meta property="og:title" content="Folio">
+    <meta property="og:description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
 
     <link rel="stylesheet" href="stylesheets/style.css">
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <script src="javascripts/jquery-3.1.1.js"></script>
+    <script src="javascripts/social-likes.min.js"></script>
   </head>
 
   <body class="landing bg">
-
 
     <section class="landingWrar">
 
@@ -32,15 +44,11 @@
           </p>
           <figure></figure>
         </section>
-        <figure></figure>
+        <figure class="mockup" id="mockup1"></figure>
       </section>
 
       <section class="mainSection right" id="s2">
-        <nav class="menubar">
-          <div class="logo"></div>
-        </nav>
-
-        <section>
+              <section>
           <h2>
             Всё необходимое <br>
             в одном шаблоне.
@@ -52,14 +60,12 @@
           </p>
           <figure></figure>
         </section>
-        <figure></figure>
+        <figure class="mockup" id="m1"></figure>
+        <figure class="mockup" id="m2"></figure>
+        <figure class="mockup" id="m3"></figure>
       </section>
 
       <section class="mainSection left" id="s3">
-        <nav class="menubar">
-          <div class="logo"></div>
-        </nav>
-
         <section>
           <h2>
             Адаптирован под <br>
@@ -72,14 +78,10 @@
           </p>
           <figure></figure>
         </section>
-        <figure></figure>
+        <figure class="mockup" id="mockup3"></figure>
       </section>
 
       <section class="mainSection center" id="s4">
-        <nav class="menubar">
-          <div class="logo"></div>
-        </nav>
-
         <section>
           <h2>
             Возможность самостоятельного <br>
@@ -90,19 +92,24 @@
             выложенному на GitHub, или записаться на курс “Основы <br>
             веб-вёрстки с Захаром Днём” на Hack Exchange.
           </p>
-          <div
-            <a href="#">Курс на Hack Exchange</a>
+          <div>
+            <a class="bgr" href="#">Курс на Hack Exchange</a>
           </div>
           <div>
-            <a href="#">Исходный код на GitHub</a>
+            <a class="nobgr" href="#">Исходный код на GitHub</a>
           </div>
 
+          <footer>
+            <p>Пожалуйста, поделитесь знаниями с друзьями</p>
+            <div class="social-likes social-likes_single" data-single-title="Поделиться">
+            	<div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+            	<div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+            	<div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+            </div>
+          </footer>
         </section>
         <figure></figure>
 
-        <footer>
-          <p>Пожалуйста, поделитесь знаниями с друзьями</p>
-        </footer>
       </section>
 
     </section>
