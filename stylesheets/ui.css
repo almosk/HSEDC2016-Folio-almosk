@@ -45,3 +45,10 @@
     font-weight: lighter;
   }
 }
+
+@media screen and (max-width: 840px) {
+  .bgr {
+    margin-top: 96px;
+  }
+
+}

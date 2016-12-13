@@ -1,8 +1,8 @@
-/*body.landing.bg {
+body.landing.bg {
   background-image: url(../materials/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
-}*/
+}
 
 body.landing * {
   transition: all .3s ease;
@@ -157,9 +157,9 @@ body.landing * {
 }
 
 @media screen and (max-width: 1180px) {
-  /*body.landing.bg {
+  body.landing.bg {
   background-image: url(../materials/mockups/1024.png);
-  }*/
+  }
 
   .mainSection {
     height: 570px;
@@ -272,12 +272,122 @@ body.landing * {
   .br2 {
     display: block;
   }
-
-
 }
 
 @media screen and (max-width: 840px) {
   body.landing.bg {
   background-image: url(../materials/mockups/768.png);
+  }
+
+  .mainSection {
+    height: 1025px;
+  }
+
+  .mainSection h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .mainSection p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+  }
+
+  .mainSection.center section {
+    top: 184px;
+    width: 100%;
+  }
+
+  .mainSection section {
+    position: absolute;
+    top: 140px;
+    width: 580px;
+  }
+
+  .mainSection.left section {
+    left: 450px;
+  }
+
+  .mainSection.right section {
+    right: 210px;
+  }
+
+
+  .mainSection section figure {
+    margin: 40px;
+    width: 22px;
+    height: 3px;
+  }
+
+  .mainSection.left section figure {
+    margin-left: 0;
+  }
+
+  .mainSection.right section figure {
+    margin-left: 1px;
+  }
+
+  .mainSection.center footer {
+    top: 490px;
+    right: 0;
+  }
+
+  .mainSection.center footer p {
+    font-size: 16px;
+  }
+
+  #mockup1 {
+    width: 540px;
+    height: 566px;
+    top: 480px;
+    right: 450px;
+  }
+
+  #m1 {
+    width: 140px;
+    top: 455px;
+    height: 317px;
+    left: 475px;
+  }
+
+  #m2 {
+    width: 140px;
+    top: 455px;
+    height: 396px;
+    left: 648px;
+  }
+
+  #m3 {
+    width: 140px;
+    top: 455px;
+    height: 474px;
+    left: 821px;
+  }
+
+  #mockup3 {
+    width: 674px;
+    height: 404px;
+    top: 504px;
+    right: 308px;
+  }
+
+  .mainSection.center footer {
+    top: 747px;
+    right: 0;
+    width: 100%;
+  }
+
+  .mainSection.center footer p {
+    font-size: 13px;
+  }
+
+
+  .br1 {
+    display: none;
+  }
+
+  .br2 {
+    display: block;
   }
 }
