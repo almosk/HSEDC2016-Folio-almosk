@@ -1,4 +1,4 @@
-.menubar{
+.menubar {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,4 +24,21 @@
   width: 90px;
   background-image: url(../materials/images/logo.svg);
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 840px) {
+  .menubar {
+    height: 40px;
+  }
+
+  .logo {
+    height: 19px;
+    width: 59px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menubar {
+    width: 768px;
+  }
 }
