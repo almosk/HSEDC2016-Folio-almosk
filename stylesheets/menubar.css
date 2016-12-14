@@ -26,7 +26,7 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 839px) {
   .menubar {
     height: 40px;
   }
@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menubar {
     width: 768px;
   }
