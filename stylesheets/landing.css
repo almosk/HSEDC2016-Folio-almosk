@@ -119,7 +119,7 @@ body.landing * {
   height: 566px;
   top: 235px;
   right: 168px;
-  background-image: url(../materials/images/mockup1.png);
+  background-image: url(../materials/images/mockup1.jpg);
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 }
 
@@ -128,7 +128,7 @@ body.landing * {
   height: 318px;
   top: 193px;
   left: 159px;
-  background-image: url(../materials/images/about.png);
+  background-image: url(../materials/images/about.jpg);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
@@ -137,7 +137,7 @@ body.landing * {
   height: 396px;
   top: 193px;
   left: 332px;
-  background-image: url(../materials/images/works.png);
+  background-image: url(../materials/images/works.jpg);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
@@ -146,7 +146,7 @@ body.landing * {
   height: 477px;
   top: 193px;
   left: 505px;
-  background-image: url(../materials/images/work.png);
+  background-image: url(../materials/images/work.jpg);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
@@ -155,7 +155,7 @@ body.landing * {
   height: 402px;
   top: 343px;
   right: 41px;
-  background-image: url(../materials/images/mockup3.png);
+  background-image: url(../materials/images/mockup3.jpg);
 }
 
 #s2, #s4 {
@@ -414,9 +414,9 @@ body.landing * {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
-  #mockup1 {background-image: url(../materials/images/mockup1@2x.png);}
-  #m1 {background-image: url(../materials/images/about@2x.png);}
-  #m2 {background-image: url(../materials/images/works@2x.png);}
-  #m3 {background-image: url(../materials/images/work@2x.png);}
-  #mockup3 {background-image: url(../materials/images/mockup3@2x.png);}
+  #mockup1 {background-image: url(../materials/images/mockup1@2x.jpg);}
+  #m1 {background-image: url(../materials/images/about@2x.jpg);}
+  #m2 {background-image: url(../materials/images/works@2x.jpg);}
+  #m3 {background-image: url(../materials/images/work@2x.jpg);}
+  #mockup3 {background-image: url(../materials/images/mockup3@2x.jpg);}
 }
