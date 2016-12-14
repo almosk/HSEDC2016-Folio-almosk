@@ -37,8 +37,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 782px) {
   .menubar {
-    width: 768px;
+    width: 782px;
   }
 }
