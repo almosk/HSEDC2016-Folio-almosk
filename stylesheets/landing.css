@@ -45,14 +45,6 @@ body.landing * {
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
-  #mockup1 {background-image: url(../materials/images/mockup1@2x.jpg);}
-  #mockup2_1 {background-image: url(../materials/images/about@2x.jpg);}
-  #mockup2_2 {background-image: url(../materials/images/works@2x.jpg);}
-  #mockup2_3 {background-image: url(../materials/images/work@2x.jpg);}
-  #mockup3 {background-image: url(../materials/images/mockup3@2x.jpg);}
-}
-
 .mainSection {
   width: 1440px;
   height: 800px;
@@ -98,13 +90,11 @@ body.landing * {
   right: 70px;
 }
 
-
 .mainSection section figure {
   margin: 60px 0 0 -60px;
   width: 30px;
   height: 4px;
   background-color: #50e3c2;
-
 }
 
 .mainSection.left section figure {
@@ -155,7 +145,7 @@ body.landing * {
   position: absolute;
 }
 
-.mockup2_  {
+.mockup2 {
   background-size: cover;
 }
 
@@ -203,7 +193,7 @@ body.landing * {
 
 @media screen and (max-width: 1439px) {
   .landingWraper {
-  width: 100%
+    width: 100%;
   }
 }
 
@@ -241,7 +231,6 @@ body.landing * {
   .mainSection.right section {
     right: 80px;
   }
-
 
   .mainSection section figure {
     margin: 40px;
@@ -312,7 +301,6 @@ body.landing * {
     font-size: 13px;
   }
 
-
   .br1 {
     display: none;
   }
@@ -356,7 +344,6 @@ body.landing * {
   .mainSection.right section {
     right: 210px;
   }
-
 
   .mainSection section figure {
     margin: 40px;
@@ -427,7 +414,6 @@ body.landing * {
     font-size: 13px;
   }
 
-
   .br1 {
     display: none;
   }
@@ -435,4 +421,12 @@ body.landing * {
   .br2 {
     display: block;
   }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 {background-image: url(../materials/images/mockup1@2x.jpg);}
+  #mockup2_1 {background-image: url(../materials/images/about@2x.jpg);}
+  #mockup2_2 {background-image: url(../materials/images/works@2x.jpg);}
+  #mockup2_3 {background-image: url(../materials/images/work@2x.jpg);}
+  #mockup3 {background-image: url(../materials/images/mockup3@2x.jpg);}
 }
